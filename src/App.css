@@ -1,0 +1,33 @@
+.main-card {
+  background: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  max-width: 400px;
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.dice-button, .btn {
+  border-radius: 50%;
+  background: hsl(150, 100%, 66%);
+  height: 50px;
+  width: 50px;
+  bottom: -45px;
+  border: none;
+  outline: none;
+}
+
+.dice-button:focus, .dice-button:hover, .dice-button:active {
+  background:hsl(150, 100%, 66%);
+  border-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 20px hsl(150, 100%, 66%) !important;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.quote {
+  font-size: 28px;
+}
